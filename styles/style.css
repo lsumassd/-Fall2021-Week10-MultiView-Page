@@ -1,38 +1,48 @@
-.axisX{
-    font-size: 30pt;
+#title{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 90vw;
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: #808080;
 }
-.axisY{
-    font-size: 30pt;
+#fig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90vw;
 }
+.xAxis{
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+.yAxis{
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
 .axis{
     font-size: 30pt;
 }
-circle{
-    fill-opacity: .7;
-}
-.title{
-    font-size: 50pt;
-    font-family: sans-serif;
-    text-anchor: middle;
-    color: black;
-    'z-index': 1001;
-}
-.label{
-    font-size: 30pt;
-    font-family: sans-serif;
-    text-anchor: middle;
-    'z-index': 1001;
-}
 .bars{
     fill-opacity: .7;
+
 }
-.legend{
-    text-anchor: middle;
-    font-size: 20pt;
+:hover.bars{
+    fill-opacity: .9;
+    fill: darkred;
+}
+.stat{
     font-family: sans-serif;
+    font-size: 25pt;
 }
-.selected{
-    stroke: black;
-    stroke-width: 3px;
-    fill-opacity: 1;
+text.label{
+ font-family: sans-serif;
+ font-size: 32pt;
+}
+text.plotTitle{
+    font-family: sans-serif;
+    font-size: 32pt;
 }
